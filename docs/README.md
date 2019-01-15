@@ -1,6 +1,8 @@
 # Docs
 
-These docs are meant to be viewed on [GitHub](https://github.com/birchbox/bernard_black/tree/develop/docs). Each directory has its own README.
+::: tip Hey Naveed
+It’s your favorite framework
+:::
 
 - [Guides](/guides/) - Start here!
 - [Components](/components/)
