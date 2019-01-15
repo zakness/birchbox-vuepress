@@ -14,4 +14,4 @@ log({
 })
 ```
 
-See the [Event Logging docs](/docs/guides/event-logging) for more info on event logging in general.
+See the [Event Logging docs](/guides/event-logging) for more info on event logging in general.

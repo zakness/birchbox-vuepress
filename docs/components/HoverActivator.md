@@ -13,8 +13,8 @@ Prop|Type|Description|Default
 getActiveKey|func|Returns the key that identifies the active target, or a falsey value if there is no active target. If there is only one target, its key should be truthy.|
 isEnabled|bool|Whether or not `HoverActivator` should react to mouse movements|`true`
 onActiveKeyChange|func(key)|Called when mouse movements trigger an activation or deactivation of a target. If activating, passes the target’s key (defaults to `true`). If deactivating, passes `null`.|
-targetAlignment|oneOf(Rect.ALIGNMENT)|How `targetRect` is positioned relative to the source. See [`Rect` docs](/docs/utils/Rect.md)|
-targetRect|[`Rect`](/docs/utils/Rect.md)|The target `Rect`|
+targetAlignment|oneOf(Rect.ALIGNMENT)|How `targetRect` is positioned relative to the source. See [`Rect` docs](/utils/Rect.md)|
+targetRect|[`Rect`](/utils/Rect.md)|The target `Rect`|
 debugId|string|If set, logs `HoverActivator` actions to the console. **Do not use in production.** |
 
 ## Making it work

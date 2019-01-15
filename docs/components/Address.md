@@ -2,7 +2,7 @@
 
 [`Address`](/src/components/Addresses/Address/index.js) is a component for displaying an address with standard formatting.
 
-Not sure this is the right component for your use case? See [other address-related components](/docs/guides/addresses.md).
+Not sure this is the right component for your use case? See [other address-related components](/guides/addresses.md).
 
 ## Props
 

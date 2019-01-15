@@ -1,8 +1,8 @@
 # AddressUsageCheckboxes
 
-[`AddressUsageCheckboxes`](/src/components/Addresses/AddressUsageCheckboxes/index.js) is a group of checkboxes that represent how an address is used by the system. For example for subscription shipping or default shop billing. Uses [`Form2Beta`](/docs/components/Form.md) paradigms. This component is typically used with [AddressFields](/docs/components/AddressFields.md).
+[`AddressUsageCheckboxes`](/src/components/Addresses/AddressUsageCheckboxes/index.js) is a group of checkboxes that represent how an address is used by the system. For example for subscription shipping or default shop billing. Uses [`Form2Beta`](/components/Form.md) paradigms. This component is typically used with [AddressFields](/components/AddressFields.md).
 
-Not sure this is the right component for your use case? See [other address-related components](/docs/guides/addresses.md).
+Not sure this is the right component for your use case? See [other address-related components](/guides/addresses.md).
 
 ## Props
 

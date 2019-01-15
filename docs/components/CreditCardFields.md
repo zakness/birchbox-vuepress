@@ -1,6 +1,6 @@
 # CreditCardFields
 
-[`CreditCardFields`](/src/components/Payment/CreditCardFields/index.js) is a group of four fields that capture a credit card. Uses [`Form2Beta`](/docs/components/Form.md) paradigms.
+[`CreditCardFields`](/src/components/Payment/CreditCardFields/index.js) is a group of four fields that capture a credit card. Uses [`Form2Beta`](/components/Form.md) paradigms.
 
 ## Props
 

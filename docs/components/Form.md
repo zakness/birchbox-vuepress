@@ -66,7 +66,7 @@ Prop|Type|Description|Default
 ---|---|---|---
 label|string|The user-facing label for the field.|
 name|string|The key (or path) used for the field in the `Form` data.|
-validators|arrayOf(validator)\|(data) => arrayOf(validators)|Any validators to execute against the field value. If a function, it is passed the current data and should return a list of validators. See [validator docs](/docs/utils/validators.md) for more info.|
+validators|arrayOf(validator)\|(data) => arrayOf(validators)|Any validators to execute against the field value. If a function, it is passed the current data and should return a list of validators. See [validator docs](/utils/validators.md) for more info.|
 requiredMessage | string(label) => message | Sets a custom required message for the specific field | `validators -> nonEmpty.message()`
 isOptional|bool\|(data) => bool|Can the field be empty upon submission? A kind of special-case validator. If a function, it is passed the current data. This is useful for fields whose necessity is determined by other field values.|`false`
 
@@ -130,7 +130,7 @@ isOptional|bool|Can the field be empty upon submission? Per Product Design, if a
 label|string|The user-facing label for the field.|
 name|string|The key (or path) used for the field in the `Form` data.|
 value|any|The field’s current value.|
-...|any|Other props from any [validators’ `fieldProps` prop](/docs/utils/validators.md).|
+...|any|Other props from any [validators’ `fieldProps` prop](/utils/validators.md).|
 
 \* *We ask ‘is invalid?’ rather than the more intuitive ‘is valid?’ because by default fields are not validated but should appear valid, thus asking ‘is valid?’ before submission causes [Heisenberg](https://en.wikipedia.org/wiki/Uncertainty_principle) to spin in his grave.*
 

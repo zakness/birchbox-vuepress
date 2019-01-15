@@ -16,11 +16,11 @@ isOpen|bool|Whether or not the dropdown is open. Use if you want to control the 
 label|node\|HTML string\|func(isActive:bool)|Control label. Can be string, node, or function. If `label` is a function, it is passed the Dropdown’s `isActive` state (`isOpen` or `isHovering`), and is expected to return a string or node.|
 onOpenChange|func(isOpen:bool)|Triggered right after the dropdown opens or closes|
 to|object\|string|If set, control will navigate to this location on click|
-trackingProps|object|This object is merged into the default [click event](/docs/guides/event-logging/events/click.md) data.|
+trackingProps|object|This object is merged into the default [click event](/guides/event-logging/events/click.md) data.|
 
 ## Positioning the dropdown
 
-When the `Dropdown` control is activated it will position its child component using the `top`, `right`, `bottom`, `left`, and `overlap` keys from the object returned by the `getDropdownPosition` prop. `getDropdownPosition` is passed a reference to the control [`Rect`](/docs/utils/Rect.md) so it can be used in the position calculations. The positioning origin coordinates are the top-left corner of the control.
+When the `Dropdown` control is activated it will position its child component using the `top`, `right`, `bottom`, `left`, and `overlap` keys from the object returned by the `getDropdownPosition` prop. `getDropdownPosition` is passed a reference to the control [`Rect`](/utils/Rect.md) so it can be used in the position calculations. The positioning origin coordinates are the top-left corner of the control.
 
 This example positions the dropdown directly below the control, aligning the dropdown and control’s right edges:
 

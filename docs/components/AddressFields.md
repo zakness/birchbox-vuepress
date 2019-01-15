@@ -1,8 +1,8 @@
 # AddressFields
 
-[`AddressFields`](/src/components/Addresses/AddressFields/index.js) is a group of fields that capture an address. Uses [`Form2Beta`](/docs/components/Form.md) paradigms. Use this component if you want to capture an address *along with other data* in a form.
+[`AddressFields`](/src/components/Addresses/AddressFields/index.js) is a group of fields that capture an address. Uses [`Form2Beta`](/components/Form.md) paradigms. Use this component if you want to capture an address *along with other data* in a form.
 
-Not sure this is the right component for your use case? See [other address-related components](/docs/guides/addresses.md).
+Not sure this is the right component for your use case? See [other address-related components](/guides/addresses.md).
 
 ## Props
 

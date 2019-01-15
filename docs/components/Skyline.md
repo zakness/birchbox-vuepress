@@ -44,7 +44,7 @@ Only used in `wide`. In `narrow` the content is always centered.
 ```
 PropTypes.number
 ```
-The number of [GridLayout](/docs/components/GridLayout.md) columns the content area spans.
+The number of [GridLayout](/components/GridLayout.md) columns the content area spans.
 
 Only used in `wide`. In `narrow` the content is always full-width.
 

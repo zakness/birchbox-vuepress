@@ -1,10 +1,10 @@
-[← Routing docs](/docs/guides/routing)
+[← Routing docs](/guides/routing)
 
 # Writing a Route Hook
 
 In this document we’ll be building the [`<ProductViewLoader>`](/src/components/RouteHooks/ProductViewLoader.js) route hook from scratch to demonstrate the following concepts:
 - Loading the primary view-specific data before the view mounts (and showing [`<PageNotFound>`](/src/components/PageNotFound/index.js) if it fails)
-- Updating [`router.next`](/docs/guides/routing/redux-state.md#routernext) after the route matches but before the view mounts
+- Updating [`router.next`](/guides/routing/redux-state.md#routernext) after the route matches but before the view mounts
 - Adding view-specific params to the `page-view` logging event
 
 We’ll use the desire to simplify [`<ProductView>`](/src/views/catalog/ProductView/index.js) specifically as the motivation for building `<ProductViewLoader>`.
@@ -100,7 +100,7 @@ Here we introduce the `viewRouteUpdate` action which dispatches `VIEW_ROUTE_UPDA
 
 ## Adding `page-view` logging params
 
-Next we have a requirement to attach product-specific data to the `page-view` logging event that fires when the user views the PDP. We do this by passing `logParams` to [`<PageViewDispatcher>`](/docs/components/PageViewDispatcher.md):
+Next we have a requirement to attach product-specific data to the `page-view` logging event that fires when the user views the PDP. We do this by passing `logParams` to [`<PageViewDispatcher>`](/components/PageViewDispatcher.md):
 
 ```diff
   <ViewRoute path={URLS.product(':id')} pageType='pdp'>

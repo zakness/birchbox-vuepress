@@ -1,4 +1,4 @@
-[← Routing docs](/docs/guides/routing)
+[← Routing docs](/guides/routing)
 
 # `history`
 

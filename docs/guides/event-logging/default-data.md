@@ -1,4 +1,4 @@
-[← Event Logging docs](/docs/guides/event-logging)
+[← Event Logging docs](/guides/event-logging)
 
 # Default Event Data
 
@@ -34,7 +34,7 @@ sessionId|string|Logging-specific GUID for current session|`'a18b150a-f116-4082-
 
 ## Cart GTM events
 
-The following default data are set on all GTM events on the cart page. These data are essentially a lightweight “cart”, a subset of the data passed to the [`place-order`](/docs/guides/event-logging/events/place-order.md) event. See [`triggerTagManager` source code](/src/utils/logging/tagManager.js) for exact logic.
+The following default data are set on all GTM events on the cart page. These data are essentially a lightweight “cart”, a subset of the data passed to the [`place-order`](/guides/event-logging/events/place-order.md) event. See [`triggerTagManager` source code](/src/utils/logging/tagManager.js) for exact logic.
 
 Prop|Type|Description|Example
 ---|---|---|---

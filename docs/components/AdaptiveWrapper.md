@@ -1,6 +1,6 @@
 # AdaptiveWrapper
 
-Wraps children in a `div` with gutters that [adapt](/docs/enhancers/Adapter.md) to the current breakpoint.
+Wraps children in a `div` with gutters that [adapt](/enhancers/Adapter.md) to the current breakpoint.
 
 Gutters can be applied using margins or padding. Padding is necessary for full-bleed styles, typically background color. Margin is useful for making sure your content doesn’t touch the viewport edge, which comes in handy for border separators.
 

@@ -1,4 +1,4 @@
-[← Routing docs](/docs/guides/routing)
+[← Routing docs](/guides/routing)
 
 # `<ViewRoute>`
 
@@ -20,7 +20,7 @@ strict|bool|If `true`, trailing slashes matter when matching `path`|`false`
 
 **`view` props**
 
-See [`view` object](/docs/guides/routing/redux-state.md#view) in the Routing API docs.
+See [`view` object](/guides/routing/redux-state.md#view) in the Routing API docs.
 
 ### Gotcha: default `view` props
 

@@ -1,6 +1,6 @@
 # Developing on dev containers
 
-On dev containers, Tech Ops has built a `node-app` CLI for managing the node server. The process is run in a separate environment, so you cannot run the [`package.json`](/package.json) scripts directly like you can when [developing locally](/docs/guides/developing-locally.md).
+On dev containers, Tech Ops has built a `node-app` CLI for managing the node server. The process is run in a separate environment, so you cannot run the [`package.json`](/package.json) scripts directly like you can when [developing locally](/guides/developing-locally.md).
 
 Each target (com, es, uk) runs in a separate dev container.
 

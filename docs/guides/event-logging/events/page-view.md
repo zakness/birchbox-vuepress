@@ -1,14 +1,14 @@
-[← Event Logging docs](/docs/guides/event-logging)
+[← Event Logging docs](/guides/event-logging)
 
 # Event: `page-view`
 
-The `page-view` event is logged when the user views a page. That is, [when a view mounts](/docs/guides/routing/navigation-event.md). See [`logger` middleware source](/src/middleware/logger/index.js) for exact logic.
+The `page-view` event is logged when the user views a page. That is, [when a view mounts](/guides/routing/navigation-event.md). See [`logger` middleware source](/src/middleware/logger/index.js) for exact logic.
 
-Every time `page-view` is logged, the [`view` event](/docs/guides/event-logging/events/view.md) is logged as well.
+Every time `page-view` is logged, the [`view` event](/guides/event-logging/events/view.md) is logged as well.
 
 ## Extending event data
 
-To send more data with a `page-view` event, pass the data to the `logParams` prop on the [`PageViewDispatcher`](/docs/components/PageViewDispatcher.md) that wraps your view. See [Writing a Route Hook](/docs/guides/routing/writing-routehook.md) for an example.
+To send more data with a `page-view` event, pass the data to the `logParams` prop on the [`PageViewDispatcher`](/components/PageViewDispatcher.md) that wraps your view. See [Writing a Route Hook](/guides/routing/writing-routehook.md) for an example.
 
 ## Event data
 

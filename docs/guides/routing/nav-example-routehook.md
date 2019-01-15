@@ -2,9 +2,9 @@
 
 # Navigation with Route Hooks
 
-Route hooks are components that make sure the user has access to a view and redirects them somewhere else if they don’t. Let’s look at what happens when route hooks are encountered during a [navigation event](/docs/guides/routing/navigation-event.md).
+Route hooks are components that make sure the user has access to a view and redirects them somewhere else if they don’t. Let’s look at what happens when route hooks are encountered during a [navigation event](/guides/routing/navigation-event.md).
 
-We’ll start with the app from our [basic navigation example](/docs/guides/routing/nav-example-basic.md) and add a new constraint: The user must be logged in to see `<ViewB>`. If they aren’t logged in, they will be redirected to `<LoginView>` to log in.
+We’ll start with the app from our [basic navigation example](/guides/routing/nav-example-basic.md) and add a new constraint: The user must be logged in to see `<ViewB>`. If they aren’t logged in, they will be redirected to `<LoginView>` to log in.
 
 To accomplish this, we’ll wrap `<ViewB>`’s `<PageViewDispatcher>` with a [`<RequireAuth>`](/src/components/RouteHooks/RequireAuth.js) route hook:
 

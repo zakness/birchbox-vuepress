@@ -2,7 +2,7 @@
 
 [`TextArea`](/src/components/Form2Beta/TextArea/index.js) is a [controlled](https://facebook.github.io/react/docs/forms.html#controlled-components) `<textarea>` component.
 
-Designed to be used with [`Form2Beta`](/docs/components/Form.md).
+Designed to be used with [`Form2Beta`](/components/Form.md).
 
 ## Props
 

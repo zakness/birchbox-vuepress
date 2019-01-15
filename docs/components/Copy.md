@@ -1,6 +1,6 @@
 # Copy
 
-[`Copy`](/src/components/Copy/index.js) is a [Markdown](/docs/components/Markdown.md) component that can have a particular font color and size applied. One use case for Copy is for CMS components that provide Markdown fields with customizable font size and color.
+[`Copy`](/src/components/Copy/index.js) is a [Markdown](/components/Markdown.md) component that can have a particular font color and size applied. One use case for Copy is for CMS components that provide Markdown fields with customizable font size and color.
 
 ## props
 

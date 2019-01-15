@@ -4,19 +4,19 @@ We use a combination of [React Router](https://reacttraining.com/react-router/we
 
 **Guides**
 
-- [The Navigation Event](/docs/guides/routing/navigation-event.md)
-- [Basic Navigation Example](/docs/guides/routing/nav-example-basic.md)
-- [Navigation with Route Hooks](/docs/guides/routing/nav-example-routehook.md)
-- [Writing a Route Hook](/docs/guides/routing/writing-routehook.md)
-- [`router` Redux state](/docs/guides/routing/redux-state.md)
+- [The Navigation Event](/guides/routing/navigation-event.md)
+- [Basic Navigation Example](/guides/routing/nav-example-basic.md)
+- [Navigation with Route Hooks](/guides/routing/nav-example-routehook.md)
+- [Writing a Route Hook](/guides/routing/writing-routehook.md)
+- [`router` Redux state](/guides/routing/redux-state.md)
 
 **Components**
 
-- [`<PageViewDispatcher>`](/docs/components/PageViewDispatcher.md)
-- [`<Redirect>`](/docs/components/Redirect.md)
-- [`<ViewRoute>`](/docs/components/ViewRoute.md)
+- [`<PageViewDispatcher>`](/components/PageViewDispatcher.md)
+- [`<Redirect>`](/components/Redirect.md)
+- [`<ViewRoute>`](/components/ViewRoute.md)
 
 **Utils**
 
-- [`getVerticalRoutes`](/docs/utils/getVerticalRoutes.md)
-- [`history`](/docs/utils/history.md)
+- [`getVerticalRoutes`](/utils/getVerticalRoutes.md)
+- [`history`](/utils/history.md)

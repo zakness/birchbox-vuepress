@@ -20,7 +20,7 @@ See the `/dev/grid` page for more examples.
 
 ## `<Row>` props
 
-**Note:** Row is [adapted](/docs/enhancers/Adapter.md), so you can specify breakpoint value objects as any of these props. Useful when the Col distribution should change across breakpoints.
+**Note:** Row is [adapted](/enhancers/Adapter.md), so you can specify breakpoint value objects as any of these props. Useful when the Col distribution should change across breakpoints.
 
 ### className
 ```
@@ -48,13 +48,13 @@ PropTypes.bool
 ```
 Set to `true` if you want each Col to stack on top of each other (with the grid gutter width margin between them). When stacked, the Cols’ `span` prop is ignored and each Col takes up the full width of the Row.
 
-**ProTip!** Since Row’s props are [adapted](/docs/enhancers/Adapter.md), you can easily specify this for narrow only with `stacked='narrowOnly'`.
+**ProTip!** Since Row’s props are [adapted](/enhancers/Adapter.md), you can easily specify this for narrow only with `stacked='narrowOnly'`.
 
 Default: `false`
 
 ## `<Col>` props
 
-**Note:** Col is [adapted](/docs/enhancers/Adapter.md), so you can specify breakpoint value objects as any of these props. Useful when the Col distribution should change across breakpoints.
+**Note:** Col is [adapted](/enhancers/Adapter.md), so you can specify breakpoint value objects as any of these props. Useful when the Col distribution should change across breakpoints.
 
 ### className
 ```

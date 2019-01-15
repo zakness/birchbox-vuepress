@@ -1,6 +1,6 @@
 # ColorPicker
 
-[`ColorPicker`](/src/components/Form2Beta/ColorPicker/index.js) is a form control (designed to be used with [`Form2Beta`](/docs/components/Form.md)) that lets the user pick a color from a list of standard color names or enter a custom hex code.
+[`ColorPicker`](/src/components/Form2Beta/ColorPicker/index.js) is a form control (designed to be used with [`Form2Beta`](/components/Form.md)) that lets the user pick a color from a list of standard color names or enter a custom hex code.
 
 The list of standard color names is currently limited to [theme variable names and neutrals](/src/utils/colorNames.js). If the user picks one of these, the name itself (i.e. `majorColorDark`) is the `value`, not the actual hex code that it will eventually resolve to when rendered on screen. This is necessary for themes to work as well as giving us the flexibility to change color values in future refactors.
 
@@ -14,7 +14,7 @@ Where possible, props are typically passed down from a parent `Form`.
 ```
 PropTypes.object
 ```
-Defines if the container div’s left or right borders should collapse. Typically set indirectly by a wrapping [`ButtonGroup`](/docs/components/ButtonGroup.md).
+Defines if the container div’s left or right borders should collapse. Typically set indirectly by a wrapping [`ButtonGroup`](/components/ButtonGroup.md).
 
 ### disabled
 ```

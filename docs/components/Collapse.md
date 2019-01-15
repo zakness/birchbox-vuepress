@@ -1,6 +1,6 @@
 # Collapse
 
-[`Collapse`](/src/components/Collapse/Collapse/index.js) is an [adapted](/docs/enhancers/Adapter.md) collapsible component with a highly-customizable header and content. If you have a group of `Collapse`s and want to ensure only one is expanded at a time, wrap them in [`Accordion`](#accordion).
+[`Collapse`](/src/components/Collapse/Collapse/index.js) is an [adapted](/enhancers/Adapter.md) collapsible component with a highly-customizable header and content. If you have a group of `Collapse`s and want to ensure only one is expanded at a time, wrap them in [`Accordion`](#accordion).
 
 Prop|Type|Description|Default
 ---|---|---|---

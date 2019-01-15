@@ -1,6 +1,6 @@
 # RatingStars
 
-[`RatingStars`](/src/components/RatingStars/index.js) is an [adapted](/docs/enhancers/Adapter.md) component representing a product’s rating. Renders 5 stars plus an optional review count and other text.
+[`RatingStars`](/src/components/RatingStars/index.js) is an [adapted](/enhancers/Adapter.md) component representing a product’s rating. Renders 5 stars plus an optional review count and other text.
 
 ## Props
 

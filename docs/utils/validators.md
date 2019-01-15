@@ -1,6 +1,6 @@
 # Validators
 
-[`Validators`](/src/utils/validators/index.js) are used to validate field data in [`Form`s](/docs/components/Form.md). You add them to each field that needs them in the `fieldDefinitions` array that is passed to `Form`.
+[`Validators`](/src/utils/validators/index.js) are used to validate field data in [`Form`s](/components/Form.md). You add them to each field that needs them in the `fieldDefinitions` array that is passed to `Form`.
 
 ## Shape
 

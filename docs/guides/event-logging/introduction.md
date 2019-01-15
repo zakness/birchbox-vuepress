@@ -1,10 +1,10 @@
-[← Event Logging docs](/docs/guides/event-logging)
+[← Event Logging docs](/guides/event-logging)
 
 # Intro to Event Logging
 
 Event logging is the mechanism we use to capture events that occur on the website and send them to external data collection services in order to understand our users’ behavior and the performance of the website as a whole.
 
-Event logging is built upon a single [`log`](/docs/utils/log.md) utility function.
+Event logging is built upon a single [`log`](/utils/log.md) utility function.
 
 ## Where event data is sent
 
@@ -16,9 +16,9 @@ Data collected by GTM is then available to third party tags and helps us, among 
 
 ## What event data is sent
 
-The data sent when `log` is called is a combination of [default data](/docs/guides/event-logging/default-data.md) pulled from sessionStorage, localStorage, Redux, and the browser itself, along with the data passed to `log` directly.
+The data sent when `log` is called is a combination of [default data](/guides/event-logging/default-data.md) pulled from sessionStorage, localStorage, Redux, and the browser itself, along with the data passed to `log` directly.
 
-Detailed information about all events can be found in the [`events`](/docs/guides/event-logging/events) directory. The events that get the most attention from business stakeholders are [`place-order`](/docs/guides/event-logging/events/place-order.md), [`page-view`](/docs/guides/event-logging/events/page-view.md), and [`click`](/docs/guides/event-logging/events/click.md).
+Detailed information about all events can be found in the [`events`](/guides/event-logging/events) directory. The events that get the most attention from business stakeholders are [`place-order`](/guides/event-logging/events/place-order.md), [`page-view`](/guides/event-logging/events/page-view.md), and [`click`](/guides/event-logging/events/click.md).
 
 ## Event data maintainability
 

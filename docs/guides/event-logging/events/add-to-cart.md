@@ -1,4 +1,4 @@
-[← Event Logging docs](/docs/guides/event-logging)
+[← Event Logging docs](/guides/event-logging)
 
 # Event: `add-to-cart`
 

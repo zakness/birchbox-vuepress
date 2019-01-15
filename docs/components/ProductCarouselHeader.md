@@ -4,5 +4,5 @@
 
 Prop|Type|Description|Default
 ---|---|---|---
-layout|oneOf|See [ProductCarousel layout](/docs/components/ProductCarousel.md)|
-gutter|oneOf('padding', 'margin')|Passed through to underlying [AdaptiveWrapper](/docs/components/AdaptiveWrapper.md)|
+layout|oneOf|See [ProductCarousel layout](/components/ProductCarousel.md)|
+gutter|oneOf('padding', 'margin')|Passed through to underlying [AdaptiveWrapper](/components/AdaptiveWrapper.md)|

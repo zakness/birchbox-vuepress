@@ -1,6 +1,6 @@
 # PaymentUsageCheckboxes
 
-[`PaymentUsageCheckboxes`](/src/components/Payment/PaymentUsageCheckboxes/index.js) is a group of checkboxes that represent how a payment profile is used by the system. For example for subscription billing. Uses [`Form2Beta`](/docs/components/Form.md) paradigms. This component is typically used with [CreditCardFields](/docs/components/CreditCardFields.md).
+[`PaymentUsageCheckboxes`](/src/components/Payment/PaymentUsageCheckboxes/index.js) is a group of checkboxes that represent how a payment profile is used by the system. For example for subscription billing. Uses [`Form2Beta`](/components/Form.md) paradigms. This component is typically used with [CreditCardFields](/components/CreditCardFields.md).
 
 ## Props
 

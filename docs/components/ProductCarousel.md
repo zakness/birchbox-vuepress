@@ -1,12 +1,12 @@
 # ProductCarousel
 
-[`ProductCarousel`](/src/components/ProductCarousel/ProductCarousel/index.js) displays products in a [Carousel](/docs/components/Carousel.md).
+[`ProductCarousel`](/src/components/ProductCarousel/ProductCarousel/index.js) displays products in a [Carousel](/components/Carousel.md).
 
 ## Props
 
 Prop|Type|Description|Default
 ---|---|---|---
-dotsType|oneOf|See [Carousel dotsType](/docs/components/Carousel.md)|
+dotsType|oneOf|See [Carousel dotsType](/components/Carousel.md)|
 excludeId|number|Product ID to omit from the list.|
 layout|oneOf(`boxed|centered`)|See below for layout definitions.|boxed
 limit|number|Number of products to show, regardless of the length of `productIds`|12

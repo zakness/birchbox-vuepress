@@ -2,7 +2,7 @@
 
 [`AddressList`](/src/components/Addresses/AddressList/index.js) displays a list of addresses, allowing the user to pick one.
 
-Not sure this is the right component for your use case? See [other address-related components](/docs/guides/addresses.md).
+Not sure this is the right component for your use case? See [other address-related components](/guides/addresses.md).
 
 ## Props
 

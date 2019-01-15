@@ -2,7 +2,7 @@
 
 [`Separator`](/src/components/Separator/index.js) is a styled `<div>` that renders as a vertical or horizontal line.
 
-**Note:** Separator is [adapted](/docs/enhancers/Adapter.md), so you can specify breakpoint value objects as any of its props.
+**Note:** Separator is [adapted](/enhancers/Adapter.md), so you can specify breakpoint value objects as any of its props.
 
 ## Example
 

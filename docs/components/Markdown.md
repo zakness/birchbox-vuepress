@@ -27,7 +27,7 @@ Markdown content can contain links to PDPs using a special syntax first used by 
 
 Markdown currently supports two embedded React components (but more can easily be added). These components can be embedded in markdown content via special `{component}` syntax.
 
-### [Highlight](/docs/components/Highlight.md)
+### [Highlight](/components/Highlight.md)
 
 Usage:
 

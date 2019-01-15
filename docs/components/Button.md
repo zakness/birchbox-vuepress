@@ -2,9 +2,9 @@
 
 [`Button`](/src/components/Button/index.js) is a component with button-like styling that executes a function `onClick`.
 
-If you want a link that looks like a Button, use [ButtonLink](/docs/components/ButtonLink.md).
+If you want a link that looks like a Button, use [ButtonLink](/components/ButtonLink.md).
 
-Buttons can be grouped together (with their adjoining edges collapsed) using [ButtonGroup](/docs/components/ButtonGroup.md).
+Buttons can be grouped together (with their adjoining edges collapsed) using [ButtonGroup](/components/ButtonGroup.md).
 
 ## Props
 
@@ -21,7 +21,7 @@ PropTypes.shape({
   isLast: PropTypes.bool,
 })
 ```
-This prop controls which sides of the button are collapsed. You will not generally need to mess with this, as [ButtonGroup](/docs/components/ButtonGroup.md) sets it automatically on its Button children.
+This prop controls which sides of the button are collapsed. You will not generally need to mess with this, as [ButtonGroup](/components/ButtonGroup.md) sets it automatically on its Button children.
 
 ### color
 ```
@@ -103,7 +103,7 @@ If this prop is not set it will default to the `color` value.
 ```
 PropTypes.object
 ```
-This object is merged into the default [click event](/docs/guides/event-logging/events/click.md) data.
+This object is merged into the default [click event](/guides/event-logging/events/click.md) data.
 
 ### variant
 ```
