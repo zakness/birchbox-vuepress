@@ -14,5 +14,8 @@
   "bugs": {
     "url": "https://github.com/zakness/birchbox-vuepress/issues"
   },
-  "homepage": "https://github.com/zakness/birchbox-vuepress#readme"
+  "homepage": "https://github.com/zakness/birchbox-vuepress#readme",
+  "devDependencies": {
+    "vuepress": "^0.14.8"
+  }
 }
