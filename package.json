@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Evaluating VuePress dev docs for Birchbox",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
   },
   "repository": {
     "type": "git",
