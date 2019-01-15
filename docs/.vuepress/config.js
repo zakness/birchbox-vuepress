@@ -13,7 +13,13 @@ module.exports = {
           '/guides/routing/',
         ],
       },
-      '/components/',
+      {
+        title: 'Components',
+        children: [
+          '/components/AdaptiveWrapper',
+          '/components/Button',
+        ],
+      },
       '/enhancers/',
       '/middleware/',
       '/utils/',
