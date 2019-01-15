@@ -17,5 +17,11 @@ module.exports = {
       '/middleware/',
       '/utils/',
     ],
+    lastUpdated: 'Last Updated',
+    repo: 'zakness/birchbox-vuepress',
+    docsDir: 'docs',
+    docsBranch: 'vuepress',
+    editLinks: true,
+    editLinkText: 'Edit on GitHub',
   },
 }
