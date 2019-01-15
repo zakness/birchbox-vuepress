@@ -1,0 +1,18 @@
+{
+  "name": "birchbox-vuepress",
+  "version": "1.0.0",
+  "description": "Evaluating VuePress dev docs for Birchbox",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zakness/birchbox-vuepress.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zakness/birchbox-vuepress/issues"
+  },
+  "homepage": "https://github.com/zakness/birchbox-vuepress#readme"
+}
