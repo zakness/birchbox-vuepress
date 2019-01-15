@@ -1,4 +1,5 @@
 module.exports = {
+  base: '/birchbox-vuepress/',
   title: 'Bernard Docs',
   description: 'Evaluating VuePress for Birchbox',
   themeConfig: {
